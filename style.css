@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-box {
+    background: #89ff89;
+    width: fit-content;
+    margin: auto;
+    padding: 2rem;
+}
+
+.input-box input[type='text'],
+.input-box input[type='email'],
+.input-box select,
+.input-box textarea,
+.input-box button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.input-box button{
+    border: 1px solid white;
+    background-color: white;
+}
+.input-box button:hover{
+    border: 1px solid white;
+    background-color: transparent;
+}
+.input-box {
+    margin: 1rem 0;
+
+}
+
+.input-box .label {
+    margin: .5rem 0;
+    font-size: 25px;
+}
